@@ -68,6 +68,7 @@ namespace _Scheduler
             Task.WaitAll(tasks.ToArray());
             cts.Dispose();
             Console.WriteLine("\n\nSuccessful completion.");
+            Console.ReadKey();
         }
     }
 }
